@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090729155118) do
+ActiveRecord::Schema.define(:version => '20090729155118') do
 
   create_table "audits", :force => true do |t|
     t.integer  "auditable_id"
@@ -207,7 +207,7 @@ ActiveRecord::Schema.define(:version => 20090729155118) do
   add_index "services", ["local_port", "not_unique", "protocol_id"], :name => "local_port_unique", :unique => true
   add_index "services", ["ip_address", "protocol_id", "service_port"], :name => "services_ip_port_proto_key", :unique => true
 
-  create_table "sessions", :id => false, :force => true do |t|
+  create_table "sessions", :force => true do |t|
     t.text     "session_id", :null => false
     t.text     "data"
     t.datetime "created_at"

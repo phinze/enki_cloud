@@ -1,0 +1,21 @@
+[submodule "puppet/modules/rubygems"]
+	path = puppet/modules/rubygems
+	url = https://github.com/vurbia/puppet-rubygems.git
+[submodule "puppet/modules/ruby"]
+	path = puppet/modules/ruby
+	url = https://github.com/jfryman/puppet-ruby.git
+[submodule "puppet/modules/stdlib"]
+	path = puppet/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "puppet/modules/archive"]
+	path = puppet/modules/archive
+	url = https://github.com/camptocamp/puppet-archive.git
+[submodule "puppet/modules/rvm"]
+	path = puppet/modules/rvm
+	url = https://github.com/blt04/puppet-rvm.git
+[submodule "puppet/modules/git"]
+	path = puppet/modules/git
+	url = https://github.com/camptocamp/puppet-git.git
+[submodule "puppet/modules/postgresql"]
+	path = puppet/modules/postgresql
+	url = https://github.com/camptocamp/puppet-postgresql
